@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	app:layout_behavior="@string/appbar_scrolling_view_behavior"
+	tools:showIn="@layout/activity_about">
+	<TextView
+		android:text="
+GymMate is about those users who wants to interact and join with other users having same interests. Users can also find other gym locations around their current location. Users can check list of users attending the selected gym from the maps
+		
+		
+		This application is made by 
+		1) Janki Joshi
+		2) Siyoung Chang
+		3) Jihyuk yoon"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="100px"
+		android:minHeight="100px"
+		android:textAlignment="center"
+		android:id="@+id/textViewAbout" />
+
+</RelativeLayout>
